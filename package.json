@@ -1,0 +1,24 @@
+{
+  "name": "mockApi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mockApi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve-dist": "lite-server",
+    "prebuild2": "rm -rf dist",
+    "gulp": "gulp",
+    "build": "babel --copy-files --watch src -d build",
+    "webpack": "./node_modules/.bin/webpack --watch --progress  --colors"
+  },
+  "keywords": [],
+  "author": "Rattanak Chea",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-env": "^1.1.5",
+    "gulp": "^3.9.1",
+    "gulp-cli": "^1.2.2",
+    "lite-server": "^2.2.2"
+  }
+}
