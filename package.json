@@ -1,5 +1,5 @@
 {
-  "name": "mockApi",
+  "name": "daro-mockapi",
   "version": "1.0.0",
   "description": "",
   "main": "mockApi.js",
@@ -11,6 +11,7 @@
     "build": "babel --copy-files --watch src -d build",
     "webpack": "./node_modules/.bin/webpack --watch --progress  --colors"
   },
+  "homepage": "https://github.com/rattanakchea/mockApi",
   "keywords": [],
   "author": "Rattanak Chea",
   "license": "ISC",
